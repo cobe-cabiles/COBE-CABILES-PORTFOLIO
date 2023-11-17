@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>COBE CABILES WEBPAGE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MULTIMEDIA ARTS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="https://www.pinterest.ph/cobecabiles/" class="w3-bar-item w3-button">Pinterest</a>
+        <a href="https://www.behance.net/cobecabilesportfolio" class="w3-bar-item w3-button">Behance</a>
+        <a href="https://www.blogger.com/profile/07858954262666166483" class="w3-bar-item w3-button">Blogger</a>
+        <a href="https://gifdb.com/images/high/axolotl-flapping-ears-d9s6m6311wqc95fz.gif" class="w3-bar-item w3-button">Community</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MULTIMEDIA ARTS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmAhYxzUhbXKNuOynyUNhmb1yINoPlPT8JoSDh_Bqc99UyJP557LLr_83xuaotZAmJMJo-BRDKHqxL91md8pSv2Wc8rIgkFiZbp3NM69XsgJjAVXVzocVJsyKHmztMXi_XRk3fBRF7HyIT4CLgSfgXmasvIFFYpgv_JPsHq3rBu-RIQK_cKqJIslK55hE/s1800/2.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>"The true work of art is but a shadow of the divine perfection."</h3>
+      <p><b>Michelangelo</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha5x7Ug9XL7lcHt9dZFjSfYwgn67YNz2rgyHib18aQW9fOMdUuHM-2Z4pGmKCcPos_L9BV1Q9ziTLkEYxl_SkBr8nHMK83ZkTUaEEGRcsdlv52NsF-J45ny0BdkQs8FgKnU0W8YnzH-G9miFwSR2EpQFb6WHbSZM9bFPT6f250NgGTF90KP7mTduqhgAs/s1800/3.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>"If you hear a voice within you say 'you cannot paint,' then by all means paint, and that voice will be silenced."</h3>
+      <p><b>Vincent Van Gogh</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAB3ivO5A9dZICmtCdARRZ76TrZ3XyFbKdWCrtOoqjsVXVo0bpJpIXrrAMe40-K-BPcZGwBWnOlGy73TqMZeGUozlD2HKylcLzX8acWFn0Plu-hJvwFfOjhFA1xROaQH_7ZjJnScEZedlwnSGV1EB4tGKIZduhHjgSvzE0U8mY0hLNpfPQmIq1GE43Ik0/s1800/4.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>"The aim of art is to represent not the outward appearance of things, but their inward significance."</h3>
+      <p><b>Aristotle</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">COBE CABILES</h2>
+    <p class="w3-opacity"><i>"The Birth of a Surrealist"</i></p>
+    
+    <p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-family:"Montserrat SemiBold";color:#F3F3F3'>&nbsp;</span></p>
+
+    <p class="w3-justify"> Philippines based visual artist and graphic designer who is heavily inspired by the lowbrow pop-surrealism movement in which the oddities of things transpire. His creative works also have a sense of experimentalism and modern culture touches. Merging the beautifications of ages with our contemporary world in such surrealistic expression. </p>
+    
+    <p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-family:"Montserrat SemiBold";color:#F3F3F3'>&nbsp;</span></p>
+
+    <p class="w3-justify"> Taking up the course of Multimedia Arts at the University of Perpetual Help (Molino). Cobe has gained experience around creative traditional and digital art, photography, 2D and 3D animation, film making, and post production editing. Having to use this artistic form as an instrument to create something that aims internal reaction and urges the potential viewers to think through elements within the creative piece.</p>
+    
+    <p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-family:"Montserrat SemiBold";color:#F3F3F3'>&nbsp;</span></p>
+
+    <p class="w3-justify w3-opacity"> As an artist, there is always a longing for inspiration from creative individuals that share the same interest as ours. When art becomes a passage of communication and connection, it becomes the refuge of the mind to be in solace. When times of encountering creative block, Cobe would go through his admired creative people to be inspired by their works. Below are some of them, but there are for certain more and are yet to come of it. </p>
+    
+    <p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-family:"Montserrat SemiBold";color:#F3F3F3'>&nbsp;</span></p>
+	<p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-family:"Montserrat SemiBold";color:#F3F3F3'>&nbsp;</span></p>
+	
+      <div class="w3-third">
+        <p>MELANIE MARTINEZ</p>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipaW1XTzH_mMOyNixBMcZ_2TI9TKmZVgTNg9TDqj-Ri9yxIpwSQSS77FOFd9qE0favTaLlSloZm8fSUtLWhsqUIWscytcbNqfYme-kraM3J3rZYQkJEK5XZi8OVzCGzWotqPjn-yb9C5N1Zo8XXt48LDlFQMAbSMgy2czgUyv-RJ6py7GQJZmiqeLOxX4/s383/1.png" class="w3-round w3-margin-bottom" alt="Melanie Martinez" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <p>PETITE DOLL</p>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMKxk-HAHkOKELfu2Lg7BrlV_5EpHktCwWJu-ZbNXmsap-eIlavaiGxcyqxwxEKJhdoX3zia043JJMhsfML5KV81jFzOZVQdMbZdu8nLsWWVL0pvYYU_7O_dKMbCmR5l1_-oywWhKhsRtWM7DOVm6Dd8_yPpV0E8uEnCZmiDVCgkksui_WYMpO2FhhOO8/s383/2.png" class="w3-round w3-margin-bottom" alt="Petite Doll" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <p>MARK RYDEN</p>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpEpRESdTov6AGeXIHH9QwnAasbfpZCFB1dvjevUdgObUDD7utnf_aQptpWhEP_StIZkAacxqwh6B3B_gEWT_lJXmNpJ_oO8nQL-5uyubNXsshIXt1qfEBOyYhr2wP9B_kjJ1liz6gDti7bU-1geMcKGLjuBbwLV2Op8ulfKZ2r271PIxqs5ZIh6lZD8Y/s383/3.png" class="w3-round w3-margin-bottom" alt="Mark Ryden" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <p>JAZMIN BEAN</p>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifZSgGSNxS8b7cvg-wBs3NVAezGdWy-WZ-P6lPlsLYd6sKWvLjYF3Np89PmVkdJtcy-rrtU_qsWuwwe_0uDM-vR07JrUYpHG-NZQt3Ajq5ocyQwmkXGXWbsrkMQA50bRpM0Qe9Sx0DUXEgDl4JbB3mbMUbcZ5yUB4LzDjIdoHSyR_vKU6fyMDKbzjKrIw/s383/4.png" class="w3-round w3-margin-bottom" alt="Jazmin Bean" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <p>MORIAH POPPY</p>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRk5dvjhj3KVava4tSLRNoLD0jzddQEHTqHTx044npN0xFOarJdVsIC7F-E76Go1iyH6H-IUM_A57VmhhZ3E_PwJ8JBaCSuzEZuoA-rN6Ij0HLSQRzUL-dxFX5GW6BxbDp2EbTBF2jF0coH1_6tM8uphr6yma_-hEL_nO2TvxA1GOw6iYY58O6DuwN-QE/s383/5.png" class="w3-round w3-margin-bottom" alt="Moriah Poppy" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <p>NICOLE DOLLANGANGER</p>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwvUl-EXNiPMmbXQm1R1PmjwdmR80EsZS-aZPItSoHwrV0iL-drGkzAPvZcfBMq-CVrLrQn7Lsao7ZRZLcAFBLeNTF0UyqtOxLQYDabEneegYyV2PD_FbBw8n1yeePQZ8jHqrcOmz5ZNoVx7XRowDjMVgJlwH0tLc4o9oZtp9BSFaRZhXvL2dxi2I8Hqo/s383/6.png" class="w3-round" alt="Nicole Dollanganger" style="width:80%">
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">MULTIMEDIA ARTS</h2>
+      <p class="w3-opacity w3-center"><i>"The Instruments that Breathes Art"</i></p><br>
+
+     <p class="w3-justify"> Multimedia Arts, what really is Multimedia Arts? According to www.study.com , “Multimedia Artists focus on the innovation and technology associated with the study of new media. Where students are trained to design and create new media projects spanning print, web, animation and film. They also acquire a foundation in the visual arts, critical theory and computer science. Aspiring professionals also investigate the convergence of art and technology, as well as the emergence of new technologies in the field.”</p>
+     
+       <p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-family:"Montserrat SemiBold";color:#F3F3F3'>&nbsp;</span></p>
+     
+     <p class="w3-justify"> Generally, we define art as a form of communication that allows people from different cultures and different times to communicate ideologies with each other through visuals, sounds and stories. Art paves way for social change and can give voice when it comes to political, social and personal matters. Any form of art can give an emotion that can make an individual enlightenment to a certain act.  (Paint and Party, 2020)</p>
+     
+       <p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-family:"Montserrat SemiBold";color:#F3F3F3'>&nbsp;</span></p>
+     
+     <p class="w3-justify"> Referring to the terminology, “Multimedia”, with its various forms such as: text, graphics, sound, animation, pictures, and videos. In our modern days, it is an important key for people to connect. As our world continues to sophisticate and develop, technology is a gift for faster works and easier ways to process and produce things. As it is connected to “Multimedia Arts”, reaching out artistry through technology will ease the distribution of messages to society. Multimedia arts, with its various forms, can help the society develop web designs and the entertainment industry in the goal of perceiving messages for the society to learn. (C.I.I.T. College of Arts and Technology,  2017 )Thus came the part where Multimedia Artists would do Animations and visual interpretations according to the feedback from Art directors,  Fellow Animators, Game Designers/Developers, or clients. Of course, this project would allow conversations and connections with the clients, other animators, games designers, directors, and other staff (which may include actors) to review deadlines and development timelines.</p>
+     
+     <p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-family:"Montserrat SemiBold";color:#F3F3F3'>&nbsp;</span></p>
+
+     <p class="w3-justify w3-opacity"> Below are  some of my creative works from both 2nd year subjects and 3rd year subjects that are aligned to my major course which is Multimedia Arts. Most of this creative work allowed me to experiment on creative styles and it is honestly such genuine joy to see the progression of my way of creatively approaching these output designs. </p>
+     
+     <p class=MsoNormal align=center style='text-align:center'><span lang=EN
+style='font-family:"Montserrat SemiBold";color:#F3F3F3'>&nbsp;</span></p>
+
+            <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj79QKNv2mYOcb43_qZ2q2qmxj-U_-cqX644UWg8ZLm5-IdPRieR8ugTB6ju_WIkw4AdJuVS84oM3pDJbPvb2PmXAdSDH8hpMqNm-qPINZ-NTw6B700PPPSrfTOZxZGMo43FfC0-KLk_FWgQpxDgfBukAys_WsgW4SRTvKzqMRREvY6rZyt2Rh4Cp7cjdQ/s600/1.png" alt="Multimedia Publishing" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>MULTIMEDIA PUBLISHING</b></p>
+            <p class="w3-opacity">mul·​ti·​me·​dia·​pub·​li·​shing</p>
+            <p>Multimedia allows the users to combine and change data from various sources like image, text, graphics, video, audio and video to a single platform.</p>
+            <a href="https://cobe-cabiles.github.io/MULTIMEDIAPUBLISHING-PORTFOLIO//MULTIMEDIA%20PUBLISHING%20PORTFOLIO.HTML" class="w3-button w3-black w3-margin-bottom">Read More</a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg90G5lRp2nkuSRuCwBfm3pHuotQT2Lp1jH9E3Gkjb2QTQXlW15qlDUx8uCIbe_LGBmmHhDQNrAzBGB8ddhlr67BwaUK1WGlvs6yifjciaq7mr0qctlPY-iy4QSGUfHQVrU72DsquQQLz76QcxSrCdSysyqt_18NTErbBJyrlOnzbsg0dkQlFR6sE18EM4/s600/2.png" alt="Film Production" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>FILM PRODUCTION</b></p>
+            <p class="w3-opacity">film·​pro·​duc·​tion</p>
+            <p>Production is the stage of the filmmaking process where the story described in a script is actualized with the filming of each scene depicted in it.</p>
+            <a href="https://cobe-cabiles.github.io/FILMPRODUCTION-PORTFOLIO/FILM%20PRODUCTION%20PORTFOLIO.HTML" class="w3-button w3-black w3-margin-bottom">Read More</a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ4laeYem3dn_GAxaNTQVBf0DpKRerKetM6zwPyf5nJR3ibpkpDllFEwqQt4mzAVcy26qbtZaLnLoJ5Udq6xzu6IT_EopVyhBJ_exRrVkhalqUnTUFH_NWBuZsyDWDlWR2XiNuOjPZMToVwqiVmPBrYzEDzSAdZg_nsoBPtAZyeJZoHL2L4aecC9Snl7g/s600/3.png" alt="Digital Photography" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>DIGITAL PHOTOGRAPHY</b></p>
+            <p class="w3-opacity">pho·​tog·​ra·​phy</p>
+			<p>: the art or process of producing images by the action of radiant energy and especially light on a sensitive surface (such as film or an optical sensor)</p>
+            <a href="https://cobe-cabiles.github.io/DIGITALPHOTOGRAPHY-PORTFOLIO/DIGITAL%20PHOTOGRAPHY%20PORTFOLIO.HTML" class="w3-button w3-black w3-margin-bottom">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT DETAILS</h2>
+    <p class="w3-opacity w3-center"><i>"Not all those who Wander are Lost"</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Dasmariñas Cavite, Philippines<br>
+        <i class="fa fa-phone" style="width:30px"></i>+63 (932) 222 66365<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> consoeur.cabiles@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNuVAC3P3G1hpgFYQ_jZ2k0Zb_4UD_Qi2Bx5NPOVEMChLuwXIAQFjzhPZi2CBDv-eriqDOJ-uZsJTkF05YSvfJhheF1syUCKYXGWs-Vnf7Cr4WFdZMHLT5_kTtbaxHf-i9WkwCCYaD56JNEUQCzl5Pfq7r8syiYCIcURV4-dqzO8oLi9Uc698xRMna7tI/s2234/CSS%20PHOTO.png" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-opacity w3-center w3-medium"><i>"Till Art Unites us Again"</i></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
